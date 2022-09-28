@@ -1,0 +1,21 @@
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+@keyframes grow {
+    from {
+        opacity: 0.1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.animated{
+    animation: grow 2s;
+}
